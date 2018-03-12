@@ -3,7 +3,7 @@ import MenuItem from './menuItem';
 import MenuTree from './menuTree';
 
 export default props => (
-    <ul ClassName="sidebar-menu">
+    <ul className="sidebar-menu">
         <MenuItem path='#/' label="Dashboard" icon="dashboard" />
         <MenuTree label="Sign In" icon="edit">
             <MenuItem path="#billingCycles" 
